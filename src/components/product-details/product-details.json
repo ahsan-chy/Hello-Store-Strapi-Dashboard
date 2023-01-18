@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_product_details_product_details",
+  "info": {
+    "displayName": "productDetails",
+    "icon": "luggage-cart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "productDet": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "quantity": {
+      "type": "biginteger"
+    },
+    "subTotal": {
+      "type": "float"
+    },
+    "categoryDet": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

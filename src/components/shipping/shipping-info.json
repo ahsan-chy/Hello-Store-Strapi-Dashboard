@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shipping_shipping_infos",
+  "info": {
+    "displayName": "shippingInfo",
+    "icon": "truck",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "deliveryAddress": {
+      "type": "richtext"
+    },
+    "additionalNote": {
+      "type": "richtext"
+    }
+  }
+}
